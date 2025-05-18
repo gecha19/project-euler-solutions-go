@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"time"
-
 	"github.com/gecha19/project-euler-solutions-go/solutions"
 )
 
