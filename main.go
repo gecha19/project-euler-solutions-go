@@ -9,7 +9,7 @@ import (
 func main() {
 	fmt.Println("Use this to run any of the solutions!")
 	start := time.Now()
-	solutions.FindNamesScores()
+	solutions.FindNonAbundantsSum(28123)
 	timeElapsed := time.Since(start)
 	fmt.Println(timeElapsed)
 }
