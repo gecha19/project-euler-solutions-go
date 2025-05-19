@@ -9,7 +9,7 @@ import (
 func main() {
 	fmt.Println("Use this to run any of the solutions!")
 	start := time.Now()
-	solutions.FindNonAbundantsSum(28123)
+	solutions.Find1000DigitFibonacciNumber()
 	timeElapsed := time.Since(start)
 	fmt.Println(timeElapsed)
 }
