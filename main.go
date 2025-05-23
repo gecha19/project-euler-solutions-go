@@ -9,7 +9,7 @@ import (
 func main() {
 	fmt.Println("Use this to run any of the solutions!")
 	start := time.Now()
-	solutions.Find1000DigitFibonacciNumber()
+	solutions.FindQuadraticPrimes()
 	timeElapsed := time.Since(start)
 	fmt.Println(timeElapsed)
 }
