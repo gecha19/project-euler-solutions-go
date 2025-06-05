@@ -23,7 +23,7 @@ func FindDigitFactorials() {
 		• For an 7-digit number, 7 × 9! = 2,540,160 > 1,000,000 (smallest 7-digit number)
 		• For an 8-digit number, 8 × 9! = 2,903,040 < 10,000,000 (smallest 8-digit number)
 	*/
-	for number <= 2540160 {
+	for number <= 7*factorials[9] {
 		sumOfFactorials := 0
 
 		for i := number; i > 0; i /= 10 {
