@@ -9,7 +9,7 @@ import (
 func main() {
 	fmt.Println("Use this to run any of the solutions!")
 	start := time.Now()
-	solutions.FindDigitFifthPowers()
+	solutions.PandigitalMultiples()
 	timeElapsed := time.Since(start)
 	fmt.Println(timeElapsed)
 }
